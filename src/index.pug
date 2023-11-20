@@ -1,0 +1,52 @@
+html(lang="ru")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Project
+        link(rel="stylesheet", href="./styles/style.css")
+        link(rel="stylesheet", href="./styles/normolize.css")
+    body 
+        include ./modules/header.pug
+        main 
+            .container
+                section.main-banner
+                    .main-banner__img-container 
+                        img(src="./assets/IMAGE.png")
+                    .main-banner__content 
+                        span.main-banner__content-text Illustration
+                        h1.main-banner__content-title  Japan House opens in mountainside to foster peak creativity.
+                        .main-banner__content-desc Enim omittam qui id, ex quo atqui dictas complectitur. Nec ad timeam accusata, hinc justo falli id eum, ferri novum molestie eos cu.
+                        button.main-banner__content-btn  By Reta Torphy
+                .foto 
+                    section.news
+                        .news_elem
+                            img(src="./assets/news_img1.png")   
+                            h2 Photography
+                            p Helmut Lang celebrates taxi drivers worldwide in latest campaign
+                            p by Alessandra Ortiz
+                        .news_elem
+                            img(src="./assets/news_img2.png")   
+                            p Photography
+                            p Bowlcut launch a new summer collection that pays homage to “UK legends”
+                            p by Rosanna Ondricka
+                        .news_elem
+                            img(src="./assets/news_img3.png")   
+                            p Photography
+                            p Bowlcut launch a new summer collection that pays homage to “UK legends”
+                            p by Rosanna Ondricka
+                        .news_elem
+                            img(src="./assets/IMAGE (3).png")   
+                            p Interactive Design
+                            p London-based Yinka Ilori’s storytelling furniture
+                            p by Annie Lueilwitz
+                        .news_elem2
+                            img(src="./assets/IMAGE (4).png")   
+                            p Graphic Design
+                            p Anonymous Israeli art collective Broken Fingaz direct music video for U2 and Beck
+                            p by Simeon Brekke
+                        .news_elem2
+                            img(src="./assets/IMAGE (5).png")   
+                            p Architecture
+                            p Suzanne Saroff’s meticulously arranged photographs alter perceptions
+                            p by Reta Torphy
+        include ./modules/footer.pug
